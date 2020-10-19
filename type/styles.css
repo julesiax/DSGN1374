@@ -1,0 +1,140 @@
+/* Type */
+
+body {
+	background-color: #0d0645;
+	font-size: 70px;
+	color: white;
+	font-family: 'Cormorant Garamond', serif;
+	margin-bottom: 0px;
+}
+
+main {
+	font-size: 23px;
+  	transform:rotate(270deg) translate(-1000px, 50px);
+    transform-origin: 10% 70%;
+    word-spacing: 10px;
+    color: #fabe19;
+    left: 0px;
+
+}
+
+p {
+	margin-left: 200px;
+	margin-top: -250px;
+	text-shadow: 40px 30px #ffc42e;
+}
+
+.bold {
+	font-size: 70px;
+	font-family: 'Krona One', sans-serif;
+}
+
+h4 {
+	margin-left: 700px;
+	transform: translate(100px,-2500px);
+	text-shadow:0px 0px 40px #d7baff;
+}
+
+
+.lights1 {
+	font-size: 60px;
+    color: #792be3;
+    font-family: 'Notable', sans-serif;
+    position: absolute;
+    transform: rotate(-75deg);
+    left: -300px;
+    top: -580px;
+}
+
+.lights2 {
+	font-size: 60px;
+    color: #792be3;
+    font-family: 'Notable', sans-serif;
+    position: absolute;
+    transform: rotate(-45deg);
+	left: -250px;
+    top: -650px;
+}
+
+.lights3 {
+	font-size: 60px;
+    color: #792be3;
+    font-family: 'Notable', sans-serif;
+    position: absolute;
+    transform: rotate(-15deg);
+	left: -200px;
+    top: -700px;
+}
+
+.lights4 {
+	font-size: 60px;
+    color: #792be3;
+    font-family: 'Notable', sans-serif;
+    position: absolute;
+    transform: rotate(15deg);
+    left: -100px;
+    top: -700px;
+}
+
+.lights5 {
+	font-size: 60px;
+    color: #792be3;
+    font-family: 'Notable', sans-serif;
+    position: absolute;
+    transform: rotate(45deg);
+    left: -25px;
+    top: -650px;
+}
+
+.lights6 {
+	font-size: 60px;
+    color: #792be3;
+    font-family: 'Notable', sans-serif;
+    position: absolute;
+    transform: rotate(75deg);
+    left: 20px;
+    top: -580px;
+}
+
+
+h1 {
+	font-size: 700px;
+	transform: rotate(270deg) translate(50px,270px);
+	transform-origin: -15% 0%;
+	font-family: 'Krona One', sans-serif;
+	opacity: 0.4;
+	color: #5bc2d9;
+
+}
+
+h2 {
+	font-size: 700px;
+	transform: rotate(90deg) translate(-1800px,-300px);
+	font-family: 'Krona One', sans-serif;
+	opacity: 0.4;
+	color: #5bc2d9;
+}
+
+h3 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 70px;
+	transform: rotate(30deg);
+	transform-origin: 15% 570%;
+	text-shadow: 0px 0px 10px #fc14f1;
+}
+
+.heading {
+	font-size: 40px;
+	font-family: 'Pinyon Script', cursive;
+	text-decoration: overline;
+	text-decoration-style: wavy;
+}
+
+h5{
+	font-size: 50px;
+	transform: translate(300px,-3100px);
+	font-family: 'Krona One', sans-serif;
+	text-shadow: 8px -8px orange;
+	display: block;
+    max-width: 100px;
+}
