@@ -1,0 +1,45 @@
+/* Images */
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	color: #883294;
+	margin-top: 50px;
+	margin-bottom: 80px;
+	line-height: 90px;
+}
+
+body {
+	font-family: 'Italianno', cursive;
+	color: #a64998;
+	text-align: center;
+	line-height: 40px;
+	font-size: 45px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+p {
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.item {
+	width: 33.33%;
+	padding: 5px;
+
+}
