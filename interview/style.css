@@ -1,0 +1,123 @@
+/* Interview */
+
+* {
+	box-sizing: border-box;
+}
+
+main {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1500px;
+}
+
+body {
+	background-color: #ffdee8;
+	line-height: 1.4;
+	font-size: 16px;
+	margin: 0.25em;
+}
+
+/* Title */
+
+.title
+{
+	padding-top: 10px;
+	padding-bottom: 15px;
+	text-align: center;
+	margin-bottom: 70px;
+	background-color: #ccffda;
+	border-radius: 50%;
+	margin-left: 15%;
+	margin-right:15%;
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 70px;
+	margin-bottom: -20px;
+	color: #700346;
+}
+
+h3 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	color: #700346;
+}
+
+/* Body */
+
+h2 {
+	font-family: 'Sansita Swashed', cursive;
+	font-size: 30px;
+	color: #700346;
+}
+
+p {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	color: #700346;
+	padding: 15px;
+	width: 60%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ccffda;
+	border-radius: 15px;
+}
+
+@media screen and (min-width: 901px) {
+  p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 900px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  p {
+    font-size: 12px;
+  }
+}
+
+/* Fancy Transitions */
+
+.container {
+	position: relative;
+}
+
+.image {
+	opacity: 1;
+	display: block;
+	width: 50%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	transition: .75s ease;
+	backface-visibility: hidden;
+	padding-bottom: 50px;
+}
+
+.middle {
+	transition: .75s ease;
+	opacity: 0;
+	position: absolute;
+	top: 5%;
+	text-align: center;
+}
+
+.container {
+	position: relative;
+	width: 100%;
+}
+
+.container:hover .image {
+	opacity: 0.3;
+}
+
+.container:hover .middle {
+	opacity: 1;
+}
